@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "figtree";
+  src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: "figtree-medium";
+  src: url('/assets/fonts/static/Figtree-Medium.ttf');
+}
+@font-face {
+  font-family: "figtree-extrabold";
+  src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+@font-face {
+  font-family: "figtree-italic";
+  src: url('/assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray500: hsl(0, 0%, 42%);
+  --Gray950: hsl(0, 0%, 7%);
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Yellow);
+}
+main section {
+  border: thin solid black;
+  padding: 1.5em;
+  border-radius: 1.5em;
+  background-color: var(--White);
+  box-shadow: 8px 8px 1px 1px;
+}
+main article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+main article p:nth-child(2) {
+  font-family: "figtree-extrabold";
+  font-size: 0.92rem;
+  width: fit-content;
+  text-align: center;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  border-radius: 0.3em;
+  background-color: var(--Yellow);
+}
+main article h2 {
+  font-size: 1.4rem;
+  font-family: "figtree-extrabold";
+}
+main article h2:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+main article p:nth-child(3) {
+  font-family: "figtree-medium";
+  font-size: 0.9rem;
+  color: var(--Gray950);
+}
+main article p:nth-child(3):hover{
+  color: var(--Yellow);
+  cursor: pointer;
+}
+main article p:nth-child(5) {
+  font-family: "figtree-medium";
+  max-width: 336px;
+  font-size: 1rem;
+  color: var(--Gray500);
+}
+main article p:nth-child(5):hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+main article figure:first-child img {
+  border-radius: 0.8em;
+  max-width: 336px;
+}
+main article figure:nth-child(6) {
+  display: flex;
+  column-gap: 0.7em;
+  padding-top: 0.5em;
+}
+main article figure:nth-child(6) img {
+  max-width: 35px;
+}
+main article figure:nth-child(6) figcaption {
+  align-self: center;
+  font-family: "figtree-extrabold";
+}
+main article figure:nth-child(6) figcaption:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+footer section { 
+  font-size: 0.688rem; 
+  text-align: center;
+}
+footer section a { 
+  color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 400px) {
+  main article p:nth-child(5) {
+    max-width: 280px;
+    font-size: 0.875rem;
+  }
+  main article h2 {
+    font-size: 1.15rem;
+  }
+  main article p:nth-child(3) {
+    font-size: 0.78rem;
+  }
+  main article p:nth-child(2) {
+    font-size: 0.82rem;
+  }
+  main article figure:nth-child(6) img {
+    max-width: 32px;
+  }
+  main article figure:nth-child(6) figcaption {
+    font-size: 0.9rem;
+  }
+}
