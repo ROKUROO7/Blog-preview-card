@@ -55,7 +55,7 @@ main article p:nth-child(2) {
   background-color: var(--Yellow);
 }
 main article h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: "figtree-extrabold";
 }
 main article h2:hover {
