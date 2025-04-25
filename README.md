@@ -61,7 +61,7 @@ I used picture tag to load two different svg files based on the device width.
   <picture>
     <source media="(min-width: 401px)" srcset="assets/images/illustration-article.svg">
     <source media="(max-width: 400px)" srcset="assets/images/illustration-article-smartphone.svg">
-    <img src="assets/images/illustration-article.svg">
+    <img src="assets/images/illustration-article.svg" alt="illustration-article">
   </picture>
 ```
 
