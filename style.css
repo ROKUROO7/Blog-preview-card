@@ -33,17 +33,15 @@ main {
   align-items: center;
   background-color: var(--Yellow);
 }
-main section {
+main article {
   border: thin solid black;
   padding: 1.5em;
   border-radius: 1.5em;
-  background-color: var(--White);
-  box-shadow: 8px 8px 1px 1px;
-}
-main article {
   display: flex;
   flex-direction: column;
   row-gap: 1em;
+  background-color: var(--White);
+  box-shadow: 8px 8px 1px 1px;
 }
 main article p:nth-child(2) {
   font-family: "figtree-extrabold";
@@ -101,15 +99,15 @@ main article figure:nth-child(6) figcaption:hover {
   color: var(--Yellow);
   cursor: pointer;
 }
-footer section { 
+footer article { 
   font-size: 0.688rem; 
   text-align: center;
 }
-footer section a { 
+footer article a { 
   color: hsl(228, 45%, 44%); 
 }
 @media (max-width: 400px) {
-  main section {
+  main article {
     padding: 1.2em;
   }
   main article p:nth-child(5) {
