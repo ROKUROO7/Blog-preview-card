@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-card-using-flexbox-Ws8KRTorCC](https://www.frontendmentor.io/solutions/blog-card-using-flexbox-Ws8KRTorCC)
 - Live Site URL: [https://rokuroo7.github.io/Blog-preview-card/](https://rokuroo7.github.io/Blog-preview-card/)
 
 ## My process
