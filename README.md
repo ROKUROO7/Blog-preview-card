@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://rokuroo7.github.io/Blog-preview-card/)
+- Live Site URL: [https://rokuroo7.github.io/Blog-preview-card/](https://rokuroo7.github.io/Blog-preview-card/)
 
 ## My process
 
