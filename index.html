@@ -17,11 +17,15 @@
       <article>
         
         <figure>
-          <picture>
+          <!--<picture>
             <source media="(min-width: 401px)" srcset="assets/images/illustration-article.svg">
             <source media="(max-width: 400px)" srcset="assets/images/illustration-article-smartphone.svg">
             <img src="assets/images/illustration-article.svg">
-          </picture>
+          </picture>-->
+          
+          <img srcset="assets/images/illustration-article-smartphone.svg 280w, assets/images/illustration-article.svg 336w" 
+            sizes="(max-width: 400px) 280px,(min-width: 401px) 336px"
+            src="assets/images/illustration-article.svg" />
         </figure>
         
         <p>Learning</p>
