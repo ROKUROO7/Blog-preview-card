@@ -53,7 +53,9 @@ so first i created another copy of the default svg file and modified that svg fi
 
 Then i searched for a solution where i can use multiple images as src and let the browser choose an image based on the device width. 
 
-At MDN i found an article named responsive images and found two solutions. one with img srcset tag and the other using picture source tags with media. I used the second one in this challenge.
+At MDN i looked at an article named responsive images and found the solution under art-direction. 
+
+I used picture tag to load two different svg files based on the device width.
 
 ```html
   <picture>
