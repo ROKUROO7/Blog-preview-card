@@ -47,9 +47,13 @@ Users should be able to:
 
 ### What I learned
 
-while working on this challenge i noticed the desktop view used the full width for the svg file  and the smartphone view used a lower width with cropped svg file. so i looked for responsive images in MDN and found two soultions.one with the img srcset tag and the other one using picture source tag.
+while working on this project i noticed that the desktop preview used the default svg file and the smartphone preview used a cropped svg file.
 
-In this Challenge I used picture source tags.
+so first i created another copy of the default svg file and modified that svg files width and viewbox.
+
+Then i searched for a solution where i can use multiple images as src and let the browser choose an image based on the device width. 
+
+At MDN i found an article named responsive images and found two solutions. one with img srcset tag and the other using picture source tags with media. I used the second one in this challenge.
 
 ```html
   <picture>
