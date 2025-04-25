@@ -25,11 +25,11 @@ Users should be able to:
 
 - Screenshot from a Desktop/Tablet
 
-![Desktop.jpeg](./Desktop-view.jpeg)
+![Desktop](Desktop.jpeg)
 
 - Screenshot from a Smartphone
 
-![smartphone.jpeg](./Smartphone-view.jpeg)
+![smartphone](smartphone.jpeg)
 
 ### Links
 
