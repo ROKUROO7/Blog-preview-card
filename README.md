@@ -24,10 +24,12 @@ Users should be able to:
 ### Screenshot
 
 - Screenshot from a Desktop/Tablet
-![/Desktop.jpeg](./Desktop-view.jpeg)
+
+![Desktop.jpeg](./Desktop-view.jpeg)
 
 - Screenshot from a Smartphone
-![/smartphone.jpeg](./Smartphone-view.jpeg)
+
+![smartphone.jpeg](./Smartphone-view.jpeg)
 
 ### Links
 
